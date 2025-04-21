@@ -344,7 +344,7 @@ export default function Home() {
                       variant="outline"
                       className="border-purple-600 text-purple-700 hover:bg-purple-100 transition-all duration-300 text-lg px-8 py-6 h-auto"
                     >
-                      Criar Simulado
+                      Criar Simulados
                     </Button>
                   </motion.div>
                 </Link>
