@@ -283,7 +283,7 @@ export default function Home() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Recursos Principais</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Nosso sistema oferece tudo o que você precisa para se preparar para suas provas
+                  Nosso sistema oferece tudo o que você precisa para se preparar para suas provas!
                 </p>
               </div>
             </motion.div>
