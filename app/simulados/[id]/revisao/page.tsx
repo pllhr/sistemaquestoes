@@ -65,7 +65,7 @@ export default function RevisaoPage({ params }: { params: { id: string } }) {
               <Link href="/">
                 <div className="flex items-center gap-2">
                   <div className="h-8 w-8 rounded-md bg-purple-600"></div>
-                  <span className="text-xl font-bold">ExamPro</span>
+                  <span className="text-xl font-bold">SimulabMath</span>
                 </div>
               </Link>
             </motion.div>
