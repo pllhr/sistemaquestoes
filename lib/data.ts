@@ -4,24 +4,24 @@ import type { Simulado } from "./types"
 export const simuladosData: Simulado[] = [
   {
     id: "1",
-    titulo: "Matemática Básica",
-    descricao: "Questões sobre aritmética, álgebra e geometria básica",
-    numQuestoes: 5,
+    titulo: "Histórico e Evolução da Internet",
+    descricao: "A internet surgiu inicialmente como um projeto",
+    numQuestoes: 10,
     duracao: "45 minutos",
     duracaoEmSegundos: 2700,
     nivel: "Fácil",
-    topicos: ["Aritmética", "Álgebra", "Geometria", "Frações", "Porcentagem"],
-    tentativas: 1243,
-    mediaAcertos: 68,
+    topicos: ["Historico", "Evolucao", "da", "Internet", "Porcentagem"],
+    tentativas: 1,
+    mediaAcertos: 1,
     questoes: [
       {
         id: 1,
-        enunciado: "Qual é o resultado da expressão 3 + 4 × 2?",
+        enunciado: "A internet surgiu inicialmente como um projeto:",
         alternativas: [
-          { id: "a", texto: "14" },
-          { id: "b", texto: "11" },
-          { id: "c", texto: "10" },
-          { id: "d", texto: "7" },
+          { id: "a", texto: "Comercial" },
+          { id: "b", texto: "Educacional" },
+          { id: "c", texto: "Militar" },
+          { id: "d", texto: "Doméstico" },
         ],
         resposta: "b",
         explicacao:
@@ -29,77 +29,137 @@ export const simuladosData: Simulado[] = [
       },
       {
         id: 2,
-        enunciado: "Se um triângulo tem lados de comprimento 3, 4 e 5 unidades, qual é a sua área?",
+        enunciado: "O nome da primeira rede de computadores da história foi:",
         alternativas: [
-          { id: "a", texto: "6 unidades quadradas" },
-          { id: "b", texto: "7.5 unidades quadradas" },
-          { id: "c", texto: "10 unidades quadradas" },
-          { id: "d", texto: "12 unidades quadradas" },
+          { id: "a", texto: "TCP/IP" },
+          { id: "b", texto: "InternetNet" },
+          { id: "c", texto: "WebBase" },
+          { id: "d", texto: "ARPANET" },
         ],
-        resposta: "a",
+        resposta: "d",
         explicacao:
           "Este é um triângulo retângulo (3-4-5). A área de um triângulo retângulo é metade do produto dos catetos: (3 × 4) ÷ 2 = 6 unidades quadradas.",
       },
       {
         id: 3,
-        enunciado: "Qual é o valor de x na equação 2x + 5 = 15?",
+        enunciado: "O primeiro protocolo usado na comunicação da ARPANET foi:",
         alternativas: [
-          { id: "a", texto: "5" },
-          { id: "b", texto: "7" },
-          { id: "c", texto: "8" },
-          { id: "d", texto: "10" },
+          { id: "a", texto: "HTTP" },
+          { id: "b", texto: "TCP/IP" },
+          { id: "c", texto: "NCP" },
+          { id: "d", texto: "DNS" },
         ],
-        resposta: "a",
+        resposta: "c",
         explicacao:
           "Para resolver a equação 2x + 5 = 15, subtraímos 5 de ambos os lados: 2x = 10. Em seguida, dividimos ambos os lados por 2: x = 5.",
       },
       {
         id: 4,
-        enunciado: "Qual é o valor de π (pi) arredondado para duas casas decimais?",
+        enunciado: "Em que ano surgiu a ARPANET?",
         alternativas: [
-          { id: "a", texto: "3.12" },
-          { id: "b", texto: "3.14" },
-          { id: "c", texto: "3.16" },
-          { id: "d", texto: "3.18" },
+          { id: "a", texto: "1959" },
+          { id: "b", texto: "1969" },
+          { id: "c", texto: "1979" },
+          { id: "d", texto: "1989" },
         ],
         resposta: "b",
         explicacao: "O valor de π (pi) é aproximadamente 3.14159... Arredondado para duas casas decimais, temos 3.14.",
       },
       {
         id: 5,
-        enunciado: "Se um retângulo tem comprimento 8 cm e largura 6 cm, qual é o seu perímetro?",
+        enunciado: "Qual foi a primeira tentativa de palavra enviada pela ARPANET?",
         alternativas: [
-          { id: "a", texto: "14 cm" },
-          { id: "b", texto: "24 cm" },
-          { id: "c", texto: "28 cm" },
-          { id: "d", texto: "48 cm" },
+          { id: "a", texto: "Hello" },
+          { id: "b", texto: "Login" },
+          { id: "c", texto: "Root" },
+          { id: "d", texto: "Acess" },
         ],
-        resposta: "c",
+        resposta: "b",
         explicacao:
           "O perímetro de um retângulo é calculado pela fórmula P = 2(comprimento + largura). Portanto, P = 2(8 + 6) = 2(14) = 28 cm.",
+      },
+      {
+        id: 6,
+        enunciado: "Qual país europeu foi o primeiro a se conectar à ARPANET após os EUA?",
+        alternativas: [
+          { id: "a", texto: "Alemanha" },
+          { id: "b", texto: "França" },
+          { id: "c", texto: "Noruega" },
+          { id: "d", texto: "Inglaterra" },
+        ],
+        "resposta": "c",
+        "explicacao": "Tim Berners-Lee criou a World Wide Web em 1989 enquanto trabalhava no CERN, propondo um sistema de hipertexto para compartilhar informações."
+      },
+      {
+        id: 7,
+        enunciado: "O protocolo TCP/IP surgiu a partir da junção de:",
+        alternativas: [
+          { id: "a", texto: "HTTP e DNS" },
+          { id: "b", texto: "TCP e FTP" },
+          { id: "c", texto: "TCP e IP" },
+          { id: "d", texto: "IP e SSL" },
+        ],
+        "resposta": "c",
+        "explicacao": "Tim Berners-Lee criou a World Wide Web em 1989 enquanto trabalhava no CERN, propondo um sistema de hipertexto para compartilhar informações."
+      },
+      {
+        id: 8,
+        enunciado: "Qual foi o investimento inicial para o projeto ARPANET?",
+        alternativas: [
+          { id: "a", texto: "US$ 10 milhões" },
+          { id: "b", texto: "US$ 100 mil" },
+          { id: "c", texto: "US$ 1 milhão" },
+          { id: "d", texto: "US$ 50 mil" },
+        ],
+        "resposta": "c",
+        "explicacao": "Tim Berners-Lee criou a World Wide Web em 1989 enquanto trabalhava no CERN, propondo um sistema de hipertexto para compartilhar informações."
+      },
+      {
+        id: 9,
+        enunciado: "No Brasil, a internet passou a ter uso comercial a partir de:",
+        alternativas: [
+          { id: "a", texto: "1990" },
+          { id: "b", texto: "1991" },
+          { id: "c", texto: "1995" },
+          { id: "d", texto: "2000" },
+        ],
+        "resposta": "c",
+        "explicacao": "Tim Berners-Lee criou a World Wide Web em 1989 enquanto trabalhava no CERN, propondo um sistema de hipertexto para compartilhar informações."
+      },
+      {
+        id: 9,
+        enunciado: "No Brasil, a internet passou a ter uso comercial a partir de:",
+        alternativas: [
+          { id: "a", texto: "NASA" },
+          { id: "b", texto: "FBI" },
+          { id: "c", texto: "CIA" },
+          { id: "d", texto: "ARPA" },
+        ],
+        "resposta": "d",
+        "explicacao": "Tim Berners-Lee criou a World Wide Web em 1989 enquanto trabalhava no CERN, propondo um sistema de hipertexto para compartilhar informações."
       },
     ],
   },
   {
     id: "2",
-    titulo: "Português - Gramática",
-    descricao: "Questões sobre regras gramaticais, concordância e regência",
-    numQuestoes: 5,
+    titulo: "Por que temos Redes de Computadores?",
+    descricao: "Questões sobre revisão para prova do João Ferlini",
+    numQuestoes: 15,
     duracao: "30 minutos",
     duracaoEmSegundos: 1800,
     nivel: "Médio",
     topicos: ["Gramática", "Concordância", "Regência", "Ortografia", "Pontuação"],
-    tentativas: 987,
-    mediaAcertos: 62,
+    tentativas: 1,
+    mediaAcertos: 1,
     questoes: [
       {
         id: 1,
-        enunciado: "Qual das alternativas apresenta um exemplo de concordância verbal correta?",
+        enunciado: "Qual é o modelo mais comum de funcionamento das redes de computadores?",
         alternativas: [
-          { id: "a", texto: "Haviam muitas pessoas na festa." },
-          { id: "b", texto: "Fazem cinco anos que não o vejo." },
-          { id: "c", texto: "Existem muitos problemas a serem resolvidos." },
-          { id: "d", texto: "Devem haver soluções para este caso." },
+          { id: "a", texto: "Ponto-a-ponto." },
+          { id: "b", texto: "Cliente/servidor." },
+          { id: "c", texto: "Estrela." },
+          { id: "d", texto: "Repetidor." },
         ],
         resposta: "c",
         explicacao:
@@ -107,12 +167,12 @@ export const simuladosData: Simulado[] = [
       },
       {
         id: 2,
-        enunciado: "Assinale a alternativa em que todas as palavras estão grafadas corretamente:",
+        enunciado: " O dispositivo que conecta redes diferentes e faz a ponte com a internet é o:",
         alternativas: [
-          { id: "a", texto: "exceção, excessão, interseção" },
-          { id: "b", texto: "exceção, excesso, interseção" },
-          { id: "c", texto: "excessão, excesso, intercessão" },
-          { id: "d", texto: "exceção, excesso, intercessão" },
+          { id: "a", texto: "Hub" },
+          { id: "b", texto: "Switch" },
+          { id: "c", texto: "Modem" },
+          { id: "d", texto: "Roteador" },
         ],
         resposta: "b",
         explicacao:
@@ -120,12 +180,12 @@ export const simuladosData: Simulado[] = [
       },
       {
         id: 3,
-        enunciado: "Qual das frases apresenta erro de regência verbal?",
+        enunciado: "A função do NAT no roteador é:",
         alternativas: [
-          { id: "a", texto: "Prefiro estudar a trabalhar." },
-          { id: "b", texto: "Assisti o filme ontem." },
-          { id: "c", texto: "Ela obedeceu ao regulamento." },
-          { id: "d", texto: "Respondeu à pergunta com precisão." },
+          { id: "a", texto: "Armazenar arquivos." },
+          { id: "b", texto: "Converter IPs locais em IP público." },
+          { id: "c", texto: "Atualizar a rede WI-FI." },
+          { id: "d", texto: "Aumentar a largura de banda." },
         ],
         resposta: "b",
         explicacao:
@@ -133,12 +193,12 @@ export const simuladosData: Simulado[] = [
       },
       {
         id: 4,
-        enunciado: "Identifique a frase que apresenta uso correto da crase:",
+        enunciado: "A frequência de 5 GHz no Wi-Fi oferece:",
         alternativas: [
-          { id: "a", texto: "Refiro-me à aluna que chegou atrasada." },
-          { id: "b", texto: "Ele foi à Roma antiga." },
-          { id: "c", texto: "Falei à todas as pessoas presentes." },
-          { id: "d", texto: "Estou disposto à colaborar." },
+          { id: "a", texto: "Mais alcance." },
+          { id: "b", texto: "Mais interferência." },
+          { id: "c", texto: "Menos velocidade." },
+          { id: "d", texto: "Mais velocidade e menos interferência." },
         ],
         resposta: "a",
         explicacao:
@@ -146,12 +206,77 @@ export const simuladosData: Simulado[] = [
       },
       {
         id: 5,
-        enunciado: "Qual alternativa apresenta pontuação correta?",
+        enunciado: "Qual protocolo o roteador usa para distribuir IPs automaticamente?",
         alternativas: [
-          { id: "a", texto: "O professor, que é muito exigente deu uma prova difícil." },
-          { id: "b", texto: "O professor que é muito exigente, deu uma prova difícil." },
-          { id: "c", texto: "O professor que é muito exigente deu uma prova difícil." },
-          { id: "d", texto: "O professor, que é muito exigente, deu uma prova difícil." },
+          { id: "a", texto: "DNS" },
+          { id: "b", texto: "TCP/IP" },
+          { id: "c", texto: "DHCP" },
+          { id: "d", texto: "FTP" },
+        ],
+        resposta: "d",
+        explicacao:
+          "A alternativa correta é 'O professor, que é muito exigente, deu uma prova difícil', pois a oração adjetiva explicativa deve ser separada por vírgulas.",
+      },
+      {
+        id: 6,
+        enunciado: "O hub envia dados para:",
+        alternativas: [
+          { id: "a", texto: "Apenas o destino correto" },
+          { id: "b", texto: "Apenas o roteador" },
+          { id: "c", texto: "Todos os dispositivos conectados" },
+          { id: "d", texto: "Apenas redes externas" },
+        ],
+        resposta: "d",
+        explicacao:
+          "A alternativa correta é 'O professor, que é muito exigente, deu uma prova difícil', pois a oração adjetiva explicativa deve ser separada por vírgulas.",
+      },
+      {
+        id: 7,
+        enunciado: "O switch usa qual tipo de endereço para direcionar os dados?",
+        alternativas: [
+          { id: "a", texto: "IP" },
+          { id: "b", texto: "MAC" },
+          { id: "c", texto: "DNS" },
+          { id: "d", texto: "URL" },
+        ],
+        resposta: "d",
+        explicacao:
+          "A alternativa correta é 'O professor, que é muito exigente, deu uma prova difícil', pois a oração adjetiva explicativa deve ser separada por vírgulas.",
+      },
+      {
+        id: 8,
+        enunciado: "O que é comunicação full-duplex?",
+        alternativas: [
+          { id: "a", texto: "Apenas envio de dados" },
+          { id: "b", texto: "Envio e recebimento de dados simultaneamente" },
+          { id: "c", texto: "Dados enviados em horários diferentes" },
+          { id: "d", texto: "Comunicação entre switches" },
+        ],
+        resposta: "d",
+        explicacao:
+          "A alternativa correta é 'O professor, que é muito exigente, deu uma prova difícil', pois a oração adjetiva explicativa deve ser separada por vírgulas.",
+      },
+      {
+        id: 9,
+        enunciado: "Em uma rede com IPs 192.168.1.0/24 e 192.168.2.0/24, quem faz a ligação entre as redes?",
+        alternativas: [
+          { id: "a", texto: "Switch" },
+          { id: "b", texto: "Hub" },
+          { id: "c", texto: "Roteador" },
+          { id: "d", texto: "Repetidor" },
+        ],
+        resposta: "d",
+        explicacao:
+          "A alternativa correta é 'O professor, que é muito exigente, deu uma prova difícil', pois a oração adjetiva explicativa deve ser separada por vírgulas.",
+      },
+      {
+        id: 9,
+        enunciado: "Para criar uma rede, é necessário:",
+        alternativas: [
+          { id: "a", texto: "Apenas um roteador" },
+          { id: "b", texto: "Apenas um computador" },
+          { id: "c", texto: "Dispositivos e equipamentos de comunicação nas pontas" },
+          { id: "d", texto: "Internet via satélite" },
         ],
         resposta: "d",
         explicacao:
@@ -161,24 +286,24 @@ export const simuladosData: Simulado[] = [
   },
   {
     id: "3",
-    titulo: "História do Brasil",
-    descricao: "Questões sobre os principais eventos históricos do Brasil",
+    titulo: "Topologias de Redes – Parte 1/2",
+    descricao: "Refere-se à forma como os dispositivos (nodes) estão organizados e conectados numa rede.",
     numQuestoes: 5,
     duracao: "50 minutos",
     duracaoEmSegundos: 3000,
     nivel: "Médio",
-    topicos: ["Período Colonial", "Império", "República", "Era Vargas", "Ditadura Militar"],
-    tentativas: 756,
-    mediaAcertos: 58,
+    topicos: ["Período Colonial", "República", "Era Vargas", "Ditadura Militar"],
+    tentativas: 1,
+    mediaAcertos: 1,
     questoes: [
       {
         id: 1,
-        enunciado: "Em que ano ocorreu a Proclamação da República no Brasil?",
+        enunciado: " Qual topologia conecta todos os dispositivos em formato circular, com fluxo unidirecional?",
         alternativas: [
-          { id: "a", texto: "1822" },
-          { id: "b", texto: "1889" },
-          { id: "c", texto: "1888" },
-          { id: "d", texto: "1891" },
+          { id: "a", texto: "Estrela" },
+          { id: "b", texto: "Árvore" },
+          { id: "c", texto: "Anel" },
+          { id: "d", texto: "Malha" },
         ],
         resposta: "b",
         explicacao:
@@ -186,12 +311,12 @@ export const simuladosData: Simulado[] = [
       },
       {
         id: 2,
-        enunciado: "Qual foi o período conhecido como 'Era Vargas' na história do Brasil?",
+        enunciado: "Em qual topologia todos os dispositivos são conectados por um único cabo principal?",
         alternativas: [
-          { id: "a", texto: "1922-1945" },
-          { id: "b", texto: "1930-1945" },
-          { id: "c", texto: "1937-1954" },
-          { id: "d", texto: "1945-1964" },
+          { id: "a", texto: "Malha" },
+          { id: "b", texto: "Estrela" },
+          { id: "c", texto: "Barramento" },
+          { id: "d", texto: "Ponto a ponto" },
         ],
         resposta: "b",
         explicacao:
@@ -199,12 +324,12 @@ export const simuladosData: Simulado[] = [
       },
       {
         id: 3,
-        enunciado: "Qual evento marcou o início do período colonial brasileiro?",
+        enunciado: "A topologia com melhor confiabilidade e rotas alternativas é:",
         alternativas: [
-          { id: "a", texto: "A chegada de Pedro Álvares Cabral em 1500" },
-          { id: "b", texto: "A instalação do primeiro Governo-Geral em 1549" },
-          { id: "c", texto: "O início da exploração do pau-brasil" },
-          { id: "d", texto: "A fundação da cidade de Salvador" },
+          { id: "a", texto: "Estrela" },
+          { id: "b", texto: "Malha" },
+          { id: "c", texto: "Árvore" },
+          { id: "d", texto: "Anel" },
         ],
         resposta: "a",
         explicacao:
@@ -212,12 +337,12 @@ export const simuladosData: Simulado[] = [
       },
       {
         id: 4,
-        enunciado: "Qual foi o último imperador do Brasil?",
+        enunciado: "A topologia mais usada no mercado por ser adaptável é:",
         alternativas: [
-          { id: "a", texto: "D. João VI" },
-          { id: "b", texto: "D. Pedro I" },
-          { id: "c", texto: "D. Pedro II" },
-          { id: "d", texto: "D. Maria I" },
+          { id: "a", texto: "Híbrida" },
+          { id: "b", texto: "Estrela" },
+          { id: "c", texto: "Árvore" },
+          { id: "d", texto: "Malha" },
         ],
         resposta: "c",
         explicacao:
@@ -225,12 +350,77 @@ export const simuladosData: Simulado[] = [
       },
       {
         id: 5,
-        enunciado: "Em que ano foi promulgada a Lei Áurea, que aboliu oficialmente a escravidão no Brasil?",
+        enunciado: "Qual topologia depende de um único hub central e permite fácil diagnóstico de falhas?",
         alternativas: [
-          { id: "a", texto: "1822" },
-          { id: "b", texto: "1850" },
-          { id: "c", texto: "1888" },
-          { id: "d", texto: "1889" },
+          { id: "a", texto: "Barramento" },
+          { id: "b", texto: "Estrela" },
+          { id: "c", texto: "Anel" },
+          { id: "d", texto: "Malha" },
+        ],
+        resposta: "c",
+        explicacao:
+          "A Lei Áurea foi promulgada em 13 de maio de 1888 pela Princesa Isabel, que atuava como regente do Império na ausência de seu pai, D. Pedro II. Esta lei aboliu oficialmente a escravidão no Brasil.",
+      },
+      {
+        id: 6,
+        enunciado: "Um problema comum nas topologias Estrela e Árvore é:",
+        alternativas: [
+          { id: "a", texto: "Alto custo de manutenção" },
+          { id: "b", texto: "Dificuldade em adicionar novos dispositivos" },
+          { id: "c", texto: "Falha no hub central afeta toda a rede" },
+          { id: "d", texto: "Lentidão no tráfego por muitos cabos" },
+        ],
+        resposta: "c",
+        explicacao:
+          "A Lei Áurea foi promulgada em 13 de maio de 1888 pela Princesa Isabel, que atuava como regente do Império na ausência de seu pai, D. Pedro II. Esta lei aboliu oficialmente a escravidão no Brasil.",
+      },
+      {
+        id: 7,
+        enunciado: " Qual das topologias não é recomendada para redes corporativas grandes?:",
+        alternativas: [
+          { id: "a", texto: "Ponto a ponto" },
+          { id: "b", texto: "Estrela" },
+          { id: "c", texto: "Árvore" },
+          { id: "d", texto: "Híbrida" },
+        ],
+        resposta: "c",
+        explicacao:
+          "A Lei Áurea foi promulgada em 13 de maio de 1888 pela Princesa Isabel, que atuava como regente do Império na ausência de seu pai, D. Pedro II. Esta lei aboliu oficialmente a escravidão no Brasil.",
+      },
+      {
+        id: 8,
+        enunciado: " Na topologia Barramento, se o cabo principal falhar:",
+        alternativas: [
+          { id: "a", texto: "A rede continua funcionando com rotas alternativas" },
+          { id: "b", texto: "Nada acontece" },
+          { id: "c", texto: "A rede para totalmente" },
+          { id: "d", texto: "Os pacotes são redirecionados pelo hub" },
+        ],
+        resposta: "c",
+        explicacao:
+          "A Lei Áurea foi promulgada em 13 de maio de 1888 pela Princesa Isabel, que atuava como regente do Império na ausência de seu pai, D. Pedro II. Esta lei aboliu oficialmente a escravidão no Brasil.",
+      },
+      {
+        id: 9,
+        enunciado: "A topologia que lembra galhos e tem hierarquia é a:",
+        alternativas: [
+          { id: "a", texto: "Estrela" },
+          { id: "b", texto: "Árvore" },
+          { id: "c", texto: "Anel" },
+          { id: "d", texto: "Malha" },
+        ],
+        resposta: "c",
+        explicacao:
+          "A Lei Áurea foi promulgada em 13 de maio de 1888 pela Princesa Isabel, que atuava como regente do Império na ausência de seu pai, D. Pedro II. Esta lei aboliu oficialmente a escravidão no Brasil.",
+      },
+      {
+        id: 10,
+        enunciado: "Uma das desvantagens da topologia Malha é:",
+        alternativas: [
+          { id: "a", texto: "Baixa velocidade" },
+          { id: "b", texto: "Alta vulnerabilidade a falhas" },
+          { id: "c", texto: "Complexidade e custo alto de instalação" },
+          { id: "d", texto: "Uso exclusivo de Wi-Fi" },
         ],
         resposta: "c",
         explicacao:
@@ -240,8 +430,8 @@ export const simuladosData: Simulado[] = [
   },
   {
     id: "4",
-    titulo: "Física - Mecânica",
-    descricao: "Questões sobre leis de Newton, cinemática e dinâmica",
+    titulo: "Tipos de Cabos de Rede",
+    descricao: "Tipos de Cabos de Rede",
     numQuestoes: 5,
     duracao: "40 minutos",
     duracaoEmSegundos: 2400,
@@ -252,18 +442,18 @@ export const simuladosData: Simulado[] = [
     questoes: [
       {
         id: 1,
-        enunciado: "Qual das seguintes afirmações representa corretamente a Primeira Lei de Newton?",
+        enunciado: "Qual foi o primeiro tipo de cabo criado, ainda na década de 1930?",
         alternativas: [
-          { id: "a", texto: "A força resultante sobre um corpo é igual ao produto de sua massa pela aceleração." },
+          { id: "a", texto: "Fibra óptica." },
           {
             id: "b",
             texto:
-              "Um corpo em repouso tende a permanecer em repouso e um corpo em movimento tende a permanecer em movimento retilíneo uniforme, a menos que uma força resultante atue sobre ele.",
+              "Coaxial.",
           },
-          { id: "c", texto: "Para toda ação há sempre uma reação igual e oposta." },
+          { id: "c", texto: "Par trançado." },
           {
             id: "d",
-            texto: "A aceleração de um corpo é diretamente proporcional à força resultante que atua sobre ele.",
+            texto: "Wireless.",
           },
         ],
         resposta: "b",
@@ -273,12 +463,12 @@ export const simuladosData: Simulado[] = [
       {
         id: 2,
         enunciado:
-          "Um objeto é lançado verticalmente para cima com uma velocidade inicial de 20 m/s. Considerando a aceleração da gravidade como 10 m/s², qual será a altura máxima atingida pelo objeto?",
+          "O cabo coaxial é mais comumente utilizado para:",
         alternativas: [
-          { id: "a", texto: "10 metros" },
-          { id: "b", texto: "20 metros" },
-          { id: "c", texto: "30 metros" },
-          { id: "d", texto: "40 metros" },
+          { id: "a", texto: "Backbones de internet" },
+          { id: "b", texto: "Redes de longa distância" },
+          { id: "c", texto: "TV a cabo e áudio" },
+          { id: "d", texto: "Servidores de data center" },
         ],
         resposta: "b",
         explicacao:
@@ -300,12 +490,12 @@ export const simuladosData: Simulado[] = [
       },
       {
         id: 4,
-        enunciado: "Um carro percorre 120 km em 2 horas com velocidade constante. Qual é a velocidade do carro em m/s?",
+        enunciado: "Uma desvantagem do cabo coaxial é:",
         alternativas: [
-          { id: "a", texto: "16,7 m/s" },
-          { id: "b", texto: "33,3 m/s" },
-          { id: "c", texto: "60 m/s" },
-          { id: "d", texto: "120 m/s" },
+          { id: "a", texto: "Alta velocidade" },
+          { id: "b", texto: "Suporte a múltiplos sinais simultâneos" },
+          { id: "c", texto: "Limite de 10 Mbps e conexão com terminais especiais" },
+          { id: "d", texto: "Compatibilidade com fibra óptica" },
         ],
         resposta: "a",
         explicacao:
@@ -314,23 +504,97 @@ export const simuladosData: Simulado[] = [
       {
         id: 5,
         enunciado:
-          "Um objeto de massa m está suspenso por uma corda. Qual é a tensão na corda se o objeto está em equilíbrio?",
+          " O cabo de par trançado é identificado pelo uso de:",
         alternativas: [
-          { id: "a", texto: "Zero" },
-          { id: "b", texto: "m/g" },
-          { id: "c", texto: "m·g" },
-          { id: "d", texto: "2·m·g" },
+          { id: "a", texto: "Fibra de vidro" },
+          { id: "b", texto: "Conector RJ-45 e Ethernet" },
+          { id: "c", texto: "Conector HDMI" },
+          { id: "d", texto: "Fios coaxiais soldados" },
         ],
         resposta: "c",
         explicacao:
           "Quando um objeto de massa m está suspenso por uma corda em equilíbrio, a tensão na corda deve equilibrar o peso do objeto. O peso é dado por P = m·g, onde g é a aceleração da gravidade. Portanto, a tensão na corda é T = m·g.",
       },
+      {
+        id: 6,
+        enunciado:
+          " Qual tipo de cabo é o principal para redes locais (LAN) desde os anos 1990?",
+        alternativas: [
+          { id: "a", texto: "Fibra óptica" },
+          { id: "b", texto: "Cabo coaxial" },
+          { id: "c", texto: "Par trançado" },
+          { id: "d", texto: "HDMI" },
+        ],
+        resposta: "c",
+        explicacao:
+          "Quando um objeto de massa m está suspenso por uma corda em equilíbrio, a tensão na corda deve equilibrar o peso do objeto. O peso é dado por P = m·g, onde g é a aceleração da gravidade. Portanto, a tensão na corda é T = m·g.",
+      },
+      {
+        id: 6,
+        enunciado: "A fibra óptica transmite dados por meio de:",
+        alternativas: [
+          { id: "a", texto: "Corrente elétrica" },
+          { id: "b", texto: "Ondas de rádio" },
+          { id: "c", texto: "Pulsos de luz" },
+          { id: "d", texto: "Sinais analógicos" }
+        ],
+        resposta: "c",
+        explicacao: "A fibra óptica transmite dados por meio de pulsos de luz, que são enviados através de um núcleo de vidro ou plástico, permitindo alta velocidade e eficiência na transmissão de dados.",
+      },
+      {
+        id: 7,
+        enunciado: "A Lei de Snell se refere a:",
+        alternativas: [
+          { id: "a", texto: "Compressão de dados" },
+          { id: "b", texto: "Protocolo de rede" },
+          { id: "c", texto: "Reflexão da luz dentro da fibra óptica" },
+          { id: "d", texto: "Instalação de cabos submarinos" }
+        ],
+        resposta: "c",
+        explicacao: "A Lei de Snell descreve a refração da luz e é fundamental para entender a reflexão total interna, que permite que a luz se propague dentro da fibra óptica sem perdas significativas."
+      },
+      {
+        id: 8,
+        enunciado: "Qual característica é típica da fibra óptica multimodo?",
+        alternativas: [
+          { id: "a", texto: "Núcleo de 9 µm" },
+          { id: "b", texto: "Uso exclusivo de laser" },
+          { id: "c", texto: "Ideal para longas distâncias" },
+          { id: "d", texto: "Núcleo maior e maior dispersão modal" }
+        ],
+        resposta: "d",
+        explicacao: "A fibra óptica multimodo possui um núcleo maior (geralmente 50 ou 62,5 µm), o que permite múltiplos modos de luz, mas resulta em maior dispersão modal, limitando sua eficiência em longas distâncias."
+      },
+      {
+        id: 9,
+        enunciado: "A fibra monomodo é ideal para:",
+        alternativas: [
+          { id: "a", texto: "Redes domésticas simples" },
+          { id: "b", texto: "Curta distância entre computadores" },
+          { id: "c", texto: "Conexões entre andares de um prédio" },
+          { id: "d", texto: "Longas distâncias com cabos submarinos" }
+        ],
+        resposta: "d",
+        explicacao: "A fibra monomodo, com um núcleo menor (cerca de 9 µm), permite a propagação de um único modo de luz, reduzindo a dispersão e sendo ideal para longas distâncias, como em cabos submarinos."
+      },
+      {
+        id: 10,
+        enunciado: "Uma desvantagem da fibra monomodo é:",
+        alternativas: [
+          { id: "A", texto: "Alta dispersão" },
+          { id: "B", texto: "Baixa velocidade" },
+          { id: "C", texto: "Alto custo de fabricação e instalação" },
+          { id: "D", texto: "Uso limitado a pequenas redes" }
+        ],
+        resposta: "C",
+        explicacao: "A fibra monomodo tem um custo de fabricação e instalação mais alto devido à precisão necessária no alinhamento e na fonte de luz (geralmente laser), embora seja mais eficiente para longas distâncias."
+      }
     ],
   },
   {
     id: "5",
-    titulo: "Química Orgânica",
-    descricao: "Questões sobre compostos orgânicos e suas propriedades",
+    titulo: "Topologias de Redes – Parte 2/2",
+    descricao: "Questões sobre a prova",
     numQuestoes: 5,
     duracao: "45 minutos",
     duracaoEmSegundos: 2700,
@@ -341,74 +605,129 @@ export const simuladosData: Simulado[] = [
     questoes: [
       {
         id: 1,
-        enunciado: "Qual das seguintes moléculas é um alcano?",
+        enunciado: "A topologia física se refere a:",
         alternativas: [
-          { id: "a", texto: "C₂H₄" },
-          { id: "b", texto: "C₃H₈" },
-          { id: "c", texto: "C₂H₂" },
-          { id: "d", texto: "C₆H₆" },
+          { id: "A", texto: "Lógica da transmissão dos dados" },
+          { id: "B", texto: "Frequência de onda" },
+          { id: "C", texto: "Disposição física dos cabos e dispositivos" },
+          { id: "D", texto: "Velocidade da internet" }
         ],
-        resposta: "b",
-        explicacao:
-          "Os alcanos são hidrocarbonetos saturados com fórmula geral CnH2n+2. A molécula C₃H₈ (propano) segue esta fórmula: 3 átomos de carbono requerem 2×3+2 = 8 átomos de hidrogênio, portanto é um alcano.",
+        resposta: "C",
+        explicacao: "A topologia física se refere à disposição física dos cabos e dispositivos em uma rede, como a organização dos componentes de hardware."
       },
       {
         id: 2,
-        enunciado: "Qual é o nome do composto CH₃-CH₂-OH segundo a nomenclatura IUPAC?",
+        enunciado: "A topologia lógica trata de:",
         alternativas: [
-          { id: "a", texto: "Metanol" },
-          { id: "b", texto: "Etanol" },
-          { id: "c", texto: "Propanol" },
-          { id: "d", texto: "Ácido etanoico" },
+          { id: "A", texto: "O comprimento dos cabos" },
+          { id: "B", texto: "A organização do tráfego de dados" },
+          { id: "C", texto: "A distância entre dispositivos" },
+          { id: "D", texto: "O número de portas do switch" }
         ],
-        resposta: "b",
-        explicacao:
-          "O composto CH₃-CH₂-OH é o etanol, um álcool com dois átomos de carbono. Na nomenclatura IUPAC, os álcoois são nomeados substituindo o sufixo 'o' do alcano correspondente por 'ol'. Como o alcano de dois carbonos é o etano, o álcool correspondente é o etanol.",
+        resposta: "B",
+        explicacao: "A topologia lógica trata da organização do tráfego de dados, ou seja, a forma como os dados fluem na rede, independentemente da disposição física."
       },
       {
         id: 3,
-        enunciado: "Qual das seguintes afirmações sobre isomeria é correta?",
+        enunciado: "Um sinal é:",
         alternativas: [
-          { id: "a", texto: "Isômeros são compostos com a mesma fórmula molecular e estrutural." },
-          { id: "b", texto: "Isômeros são compostos com diferentes fórmulas moleculares, mas mesma estrutura." },
-          { id: "c", texto: "Isômeros são compostos com a mesma fórmula molecular, mas diferentes estruturas." },
-          { id: "d", texto: "Isômeros são compostos com diferentes fórmulas moleculares e diferentes estruturas." },
+          { id: "A", texto: "Um pacote de dados criptografado" },
+          { id: "B", texto: "Uma conexão direta de rede" },
+          { id: "C", texto: "Uma sequência de estados que codifica uma mensagem" },
+          { id: "D", texto: "Uma luz de alerta do roteador" }
         ],
-        resposta: "c",
-        explicacao:
-          "Isômeros são compostos que possuem a mesma fórmula molecular (mesma quantidade de átomos de cada elemento), mas diferentes estruturas (arranjos diferentes desses átomos), o que lhes confere propriedades físicas e químicas distintas.",
+        resposta: "C",
+        explicacao: "Um sinal é uma sequência de estados que codifica uma mensagem, como pulsos elétricos ou ondas, usados para transmitir informações em uma rede."
       },
       {
         id: 4,
-        enunciado: "Qual é o produto principal da reação de adição de HBr ao propeno (CH₃-CH=CH₂)?",
+        enunciado: "O ar é considerado um meio de transmissão porque:",
         alternativas: [
-          { id: "a", texto: "1-bromopropano (CH₃-CH₂-CH₂-Br)" },
-          { id: "b", texto: "2-bromopropano (CH₃-CHBr-CH₃)" },
-          { id: "c", texto: "Brometo de propila (CH₃-CH₂-CH₂-Br)" },
-          { id: "d", texto: "Brometo de isopropila (CH₃-CHBr-CH₃)" },
+          { id: "A", texto: "Tem partículas visíveis" },
+          { id: "B", texto: "Transmite sinais eletromagnéticos" },
+          { id: "C", texto: "Pode ser pressurizado" },
+          { id: "D", texto: "Pode ser substituído por cabos" }
         ],
-        resposta: "b",
-        explicacao:
-          "Na reação de adição de HBr ao propeno, o produto principal é determinado pela regra de Markovnikov, que estabelece que o hidrogênio se adiciona ao carbono da dupla ligação que já possui mais hidrogênios. No propeno, o carbono 1 tem dois hidrogênios e o carbono 2 tem um hidrogênio, então o H do HBr se adiciona ao carbono 1 e o Br ao carbono 2, formando 2-bromopropano (CH₃-CHBr-CH₃).",
+        resposta: "B",
+        explicacao: "O ar é considerado um meio de transmissão porque transmite sinais eletromagnéticos, como ondas de rádio ou Wi-Fi, permitindo a comunicação sem fio."
       },
       {
         id: 5,
-        enunciado: "Qual das seguintes substâncias é um polímero de adição?",
+        enunciado: "No modo Simplex, a transmissão de dados:",
         alternativas: [
-          { id: "a", texto: "Nylon" },
-          { id: "b", texto: "Poliéster" },
-          { id: "c", texto: "Polietileno" },
-          { id: "d", texto: "Proteína" },
+          { id: "A", texto: "Vai e volta simultaneamente" },
+          { id: "B", texto: "Acontece entre os dois lados" },
+          { id: "C", texto: "Ocorre em uma única direção" },
+          { id: "D", texto: "Requer um switch inteligente" }
         ],
-        resposta: "c",
-        explicacao:
-          "O polietileno é um polímero de adição formado pela polimerização do etileno (CH₂=CH₂). Nos polímeros de adição, os monômeros se unem diretamente, sem a eliminação de moléculas pequenas como água. Nylon e poliéster são polímeros de condensação, e proteínas são biopolímeros formados por aminoácidos.",
+        resposta: "C",
+        explicacao: "No modo Simplex, a transmissão de dados ocorre em uma única direção, como em um sistema de rádio ou TV, onde apenas um lado envia e o outro recebe."
       },
+      {
+        id: 6,
+        enunciado: "Um exemplo de comunicação Half Duplex é:",
+        alternativas: [
+          { id: "A", texto: "Televisão" },
+          { id: "B", texto: "WhatsApp" },
+          { id: "C", texto: "Celular" },
+          { id: "D", texto: "Walkie Talkie" }
+        ],
+        resposta: "D",
+        explicacao: "Um exemplo de comunicação Half Duplex é o Walkie Talkie, pois permite que apenas uma parte transmita por vez, enquanto a outra escuta, alternando entre envio e recebimento."
+      },
+      {
+        id: 7,
+        enunciado: "A transmissão Full Duplex permite:",
+        alternativas: [
+          { id: "A", texto: "Apenas o servidor enviar dados" },
+          { id: "B", texto: "Envio e recebimento ao mesmo tempo" },
+          { id: "C", texto: "Comunicação unidirecional" },
+          { id: "D", texto: "Compartilhamento de arquivos físicos" }
+        ],
+        resposta: "B",
+        explicacao: "A transmissão Full Duplex permite envio e recebimento ao mesmo tempo, como em chamadas telefônicas, onde ambas as partes podem falar e ouvir simultaneamente."
+      },
+      {
+        id: 8,
+        enunciado: "O vácuo não transmite som porque:",
+        alternativas: [
+          { id: "A", texto: "A luz bloqueia as ondas" },
+          { id: "B", texto: "Não há um meio físico para propagar" },
+          { id: "C", texto: "Os sinais são muito fracos" },
+          { id: "D", texto: "O som é criptografado" }
+        ],
+        resposta: "B",
+        explicacao: "O vácuo não transmite som porque não há um meio físico para propagar, já que o som precisa de um meio material, como ar, água ou sólidos, para se propagar."
+      },
+      {
+        id: 9,
+        enunciado: "Um exemplo claro de transmissão Simplex é:",
+        alternativas: [
+          { id: "A", texto: "Chamada de vídeo" },
+          { id: "B", texto: "Rádio" },
+          { id: "C", texto: "E-mail" },
+          { id: "D", texto: "Rede Wi-Fi" }
+        ],
+        resposta: "B",
+        explicacao: "Um exemplo claro de transmissão Simplex é o rádio, pois a comunicação ocorre em uma única direção, do transmissor para o receptor, sem interação de volta."
+      },
+      {
+        id: 10,
+        enunciado: "Em uma rede Full Duplex, a banda é:",
+        alternativas: [
+          { id: "A", texto: "Usada por apenas um dispositivo" },
+          { id: "B", texto: "Dividida em partes iguais para cada sentido" },
+          { id: "C", texto: "Transferida apenas de um lado" },
+          { id: "D", texto: "Reduzida para metade da velocidade" }
+        ],
+        resposta: "B",
+        explicacao: "Em uma rede Full Duplex, a banda é dividida em partes iguais para cada sentido, permitindo que a transmissão e recepção ocorram simultaneamente sem perda de desempenho."
+      }
     ],
   },
   {
     id: "6",
-    titulo: "Geografia Mundial",
+    titulo: "Redes Sem Fio",
     descricao: "Questões sobre geografia física e política mundial",
     numQuestoes: 5,
     duracao: "35 minutos",
@@ -420,69 +739,100 @@ export const simuladosData: Simulado[] = [
     questoes: [
       {
         id: 1,
-        enunciado: "Qual é o país mais populoso do mundo?",
+        enunciado: "Qual é a principal vantagem das redes sem fio?",
         alternativas: [
-          { id: "a", texto: "Índia" },
-          { id: "b", texto: "China" },
-          { id: "c", texto: "Estados Unidos" },
-          { id: "d", texto: "Indonésia" },
+          { id: "A", texto: "Alta complexidade" },
+          { id: "B", texto: "Redução da largura de banda" },
+          { id: "C", texto: "Mobilidade e flexibilidade" },
+          { id: "D", texto: "Uso exclusivo em áreas industriais" }
         ],
-        resposta: "a",
-        explicacao:
-          "A Índia ultrapassou a China como o país mais populoso do mundo em 2023, com uma população estimada em mais de 1,4 bilhão de habitantes.",
+        resposta: "C",
+        explicacao: "A principal vantagem das redes sem fio é a mobilidade e flexibilidade, permitindo que dispositivos se conectem sem a necessidade de cabos, facilitando o uso em diversos cenários."
       },
       {
         id: 2,
-        enunciado: "Qual é o maior deserto do mundo?",
+        enunciado: "O RFID é mais utilizado para:",
         alternativas: [
-          { id: "a", texto: "Deserto do Saara" },
-          { id: "b", texto: "Deserto da Arábia" },
-          { id: "c", texto: "Deserto de Gobi" },
-          { id: "d", texto: "Deserto da Antártida" },
+          { id: "A", texto: "Streaming de vídeo" },
+          { id: "B", texto: "Comunicação por voz" },
+          { id: "C", texto: "Identificação automática de objetos" },
+          { id: "D", texto: "Transmissão de arquivos grandes" }
         ],
-        resposta: "d",
-        explicacao:
-          "O maior deserto do mundo é o Deserto da Antártida, que cobre quase todo o continente antártico. Embora seja coberto de gelo, é classificado como deserto devido à baixíssima precipitação anual. O Saara é o maior deserto quente do mundo.",
+        resposta: "C",
+        explicacao: "O RFID é mais utilizado para identificação automática de objetos, como em etiquetas de produtos, cartões de acesso ou rastreamento de mercadorias."
       },
       {
         id: 3,
-        enunciado: "Qual dos seguintes países NÃO faz parte da União Europeia?",
+        enunciado: "O NFC possui alcance de:",
         alternativas: [
-          { id: "a", texto: "Suécia" },
-          { id: "b", texto: "Finlândia" },
-          { id: "c", texto: "Noruega" },
-          { id: "d", texto: "Dinamarca" },
+          { id: "A", texto: "1 a 5 metros" },
+          { id: "B", texto: "4 a 10 centímetros" },
+          { id: "C", texto: "1 quilômetro" },
+          { id: "D", texto: "10 a 20 metros" }
         ],
-        resposta: "c",
-        explicacao:
-          "A Noruega não é membro da União Europeia. Embora mantenha estreitas relações econômicas com a UE através do Espaço Econômico Europeu, o país optou por não aderir à União Europeia em referendos realizados em 1972 e 1994.",
+        resposta: "B",
+        explicacao: "O NFC possui alcance de 4 a 10 centímetros, sendo ideal para comunicações de curta distância, como pagamentos por aproximação."
       },
       {
         id: 4,
-        enunciado: "Qual é o rio mais longo do mundo?",
+        enunciado: "A frequência padrão utilizada pelo NFC é:",
         alternativas: [
-          { id: "a", texto: "Rio Amazonas" },
-          { id: "b", texto: "Rio Nilo" },
-          { id: "c", texto: "Rio Yangtzé" },
-          { id: "d", texto: "Rio Mississipi" },
+          { id: "A", texto: "2,4 GHz" },
+          { id: "B", texto: "5 GHz" },
+          { id: "C", texto: "13,56 MHz" },
+          { id: "D", texto: "640 kbps" }
         ],
-        resposta: "a",
-        explicacao:
-          "O Rio Amazonas é considerado o rio mais longo do mundo, com aproximadamente 6.992 km de extensão, superando o Rio Nilo por uma pequena margem, segundo estudos recentes. Além disso, o Amazonas é o rio com maior volume de água do mundo.",
+        resposta: "C",
+        explicacao: "A frequência padrão utilizada pelo NFC é 13,56 MHz, adequada para comunicações de curto alcance e baixa potência."
       },
       {
         id: 5,
-        enunciado: "Qual dos seguintes países é o maior produtor de petróleo do mundo?",
+        enunciado: "O Bluetooth é comumente utilizado para:",
         alternativas: [
-          { id: "a", texto: "Arábia Saudita" },
-          { id: "b", texto: "Rússia" },
-          { id: "c", texto: "Estados Unidos" },
-          { id: "d", texto: "Irã" },
+          { id: "A", texto: "Comunicação entre servidores de rede" },
+          { id: "B", texto: "Conexão de dispositivos pessoais próximos" },
+          { id: "C", texto: "Controle de drones a distância" },
+          { id: "D", texto: "Instalação de câmeras industriais" }
         ],
-        resposta: "c",
-        explicacao:
-          "Os Estados Unidos são atualmente o maior produtor de petróleo do mundo, tendo ultrapassado a Arábia Saudita e a Rússia nos últimos anos, principalmente devido ao aumento da produção de petróleo de xisto.",
+        resposta: "B",
+        explicacao: "O Bluetooth é comumente utilizado para conexão de dispositivos pessoais próximos, como fones de ouvido, teclados e smartphones, devido à sua praticidade em curtas distâncias."
       },
+      {
+        id: 6,
+        enunciado: "O ZigBee se destaca por:",
+        alternativas: [
+          { id: "A", texto: "Ser de longo alcance" },
+          { id: "B", texto: "Ser usado em equipamentos de som" },
+          { id: "C", texto: "Alta potência e curto tempo de vida" },
+          { id: "D", texto: "Baixo consumo de energia e uso em IoT" }
+        ],
+        resposta: "D",
+        explicacao: "O ZigBee se destaca por seu baixo consumo de energia e uso em IoT, sendo ideal para dispositivos como sensores e controles inteligentes que precisam operar por longos períodos com eficiência energética."
+      },
+      {
+        id: 7,
+        enunciado: "As duas faixas de frequência do Wi-Fi padrão são:",
+        alternativas: [
+          { id: "A", texto: "1,2 GHz e 4,5 GHz" },
+          { id: "B", texto: "13,56 MHz e 900 MHz" },
+          { id: "C", texto: "2,4 GHz e 5 GHz" },
+          { id: "D", texto: "3 GHz e 7 GHz" }
+        ],
+        resposta: "C",
+        explicacao: "As duas faixas de frequência do Wi-Fi padrão são 2,4 GHz e 5 GHz, amplamente utilizadas para oferecer diferentes alcances e velocidades em redes sem fio."
+      },
+      {
+        id: 8,
+        enunciado: "Qual padrão define os protocolos do Wi-Fi?",
+        alternativas: [
+          { id: "A", texto: "IEEE 1394" },
+          { id: "B", texto: "IEEE 802.11" },
+          { id: "C", texto: "IEEE 1000Base-T" },
+          { id: "D", texto: "IEEE 802.3" }
+        ],
+        resposta: "B",
+        explicacao: "O padrão que define os protocolos do Wi-Fi é o IEEE 802.11, que estabelece as normas para redes sem fio, incluindo diferentes versões como 802.11a, 802.11b, 802.11g, entre outras."
+      }
     ],
   },
 ]
