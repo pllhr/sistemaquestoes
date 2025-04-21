@@ -361,7 +361,7 @@ export default function Home() {
       >
         <div className="container flex flex-col items-center justify-center gap-4 md:flex-row md:gap-8">
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-            © 2025 ExamPro. Todos os direitos reservados.
+            © 2025 Paulo Henrique Rati. Todos os direitos reservados.
           </p>
         </div>
       </motion.footer>
